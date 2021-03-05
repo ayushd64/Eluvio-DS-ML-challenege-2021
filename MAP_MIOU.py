@@ -161,7 +161,8 @@ def calc_miou(gt_dict, pr_dict, shot_to_end_frame_dict, threshold=0.5):
 # <h2>Calculating mean MIOU score</h2>
 
 # In[451]:
-
+hola = read_sef()
+hola
 
 scores = dict()
 scores["Miou"], _ = calc_miou(gt, pt, hola)
@@ -199,8 +200,7 @@ def read_files():
 # In[350]:
 
 
-hola = read_sef()
-hola
+
 
 
 # In[ ]:
